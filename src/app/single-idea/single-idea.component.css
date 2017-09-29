@@ -1,0 +1,25 @@
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    background-color: aliceblue;
+}
+
+.upvote {
+    grid-column: 1/2;
+    align-self: center;
+}
+
+.idea{
+    grid-column-start: 2;
+}
+
+.idea {
+    border-bottom: solid 1px cornflowerblue;
+    background-color:aliceblue;
+    padding:10px;
+}
+.upper-border {
+   border-top: solid 1px cornflowerblue; 
+}

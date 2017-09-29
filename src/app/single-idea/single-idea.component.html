@@ -1,0 +1,9 @@
+  <div class="idea media" [class.upper-border]="isFirstIdea">
+  <div class="d-flex mr-3">
+    <upvote (onClick)="OnUpvote($event)"></upvote>
+  </div>
+  <div class="media-body">
+    <h4>{{singleIdea.title}}</h4>
+    {{singleIdea.description}}
+  </div>
+</div>
